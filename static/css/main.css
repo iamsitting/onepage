@@ -1,0 +1,131 @@
+.section__content--vertical-align {
+  padding: 70px 0; }
+
+.section-intro {
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  overflow-x: hidden;
+  text-align: center;
+  background-image: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), url("../img/highest.jpg");
+  background-image: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), url("../img/highest.jpg");
+  background-image: -o-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), url("../img/highest.jpg");
+  background-image: -ms-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), url("../img/highest.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), url("../img/highest.jpg"); }
+
+.section-about {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  margin: 0;
+  text-align: center;
+  width: 100%; }
+
+.section-download {
+  background-size: cover;
+  color: white;
+  height: 450px;
+  padding: 70px 0;
+  text-align: center;
+  background-image: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), -webkit-linear-gradient(to top, rgba(0, 0, 0, 0) 0%, black 100%), url("../img/lowest.jpg");
+  background-image: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), -moz-linear-gradient(to top, rgba(0, 0, 0, 0) 0%, black 100%), url("../img/lowest.jpg");
+  background-image: -o-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), -o-linear-gradient(to top, rgba(0, 0, 0, 0) 0%, black 100%), url("../img/lowest.jpg");
+  background-image: -ms-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), -ms-linear-gradient(to top, rgba(0, 0, 0, 0) 0%, black 100%), url("../img/lowest.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), linear-gradient(to top, rgba(0, 0, 0, 0) 0%, black 100%), url("../img/lowest.jpg"); }
+
+.section-contact {
+  background-color: black;
+  color: white;
+  height: 350px;
+  text-align: center; }
+
+.section-map {
+  height: 120px; }
+
+.navbar {
+  padding-top: 5px 10px 5px 10px;
+  background-color: transparent;
+  border: 0; }
+
+@media screen and (max-width: 320px) {
+  .navbar--mobile {
+    background-color: black !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: background-color 1s, border-bottom 1s;
+    -webkit-transition: background-color 1s, border-bottom 1s; } }
+
+.navbar-fixed-top.scrolled {
+  background-color: black !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  transition: background-color 1s, border-bottom 1s;
+  -webkit-transition: background-color 1s, border-bottom 1s; }
+
+.navbar__anchor--style {
+  font-family: Cabin, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold; }
+  .navbar__anchor--style a {
+    color: white;
+    background-color: transparent; }
+  .navbar__anchor--style li a:link {
+    background-color: transparent; }
+  .navbar__anchor--style li a:hover {
+    background-color: transparent; }
+
+.navbar__anchor--style.scrolled {
+  font-family: Cabin, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold; }
+  .navbar__anchor--style.scrolled a {
+    color: white;
+    background-color: transparent; }
+  .navbar__anchor--style.scrolled li a:link {
+    background-color: transparent; }
+  .navbar__anchor--style.scrolled li a:hover {
+    background-color: #888; }
+
+[class^='section'] .anchor__external-link--style:link {
+  text-decoration: 0;
+  color: #1d9b6c; }
+
+[class^='section'] .anchor__external-link--style:link {
+  text-decoration: 0;
+  color: #1d9b6c; }
+
+[class^='section'] .anchor__external-link--style:link {
+  text-decoration: 0;
+  color: #1d9b6c; }
+
+[class^='section'] .anchor__external-link--style:link {
+  text-decoration: 0;
+  color: #1d9b6c; }
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px; }
+
+footer {
+  font-size: 16px; }
+
+body {
+  padding-bottom: 0px; }
+
+iframe {
+  position: relative;
+  top: 0;
+  bottom: 1200px;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%; }
+
+footer {
+  background-color: black;
+  padding: 70px;
+  margin: 0;
+  text-align: center;
+  color: white; }
+
+/*# sourceMappingURL=main.css.map */

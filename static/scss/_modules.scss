@@ -1,0 +1,46 @@
+$bg-1:    url('../img/highest.jpg');
+$bg-2:    url('../img/lowest.jpg');
+
+@function fade($direction) {
+  $val: null !default;
+
+  @if str_index($direction, top) != null{
+    $val: linear-gradient(to top, rgba(0,0,0, 0) 0%, black 100%);
+  }
+  
+  @if str_index($direction, bottom) != null{
+    $val: linear-gradient(to bottom, rgba(0,0,0, 0) 0%, black 100%);
+  }
+
+  @if str_index($direction, right) != null{
+    $val: linear-gradient(to right, rgba(0,0,0, 0) 0%, black 100%);
+  }
+
+  @if str_index($direction, left) != null{
+    $val: linear-gradient(to left, rgba(0,0,0, 0) 0%, black 100%);
+  }
+
+  @return $val;
+}
+
+
+@mixin background-image-fade-bottom($image) {
+  background-image: -webkit- + fade(bottom), $image;
+  background-image:  -moz- + fade(bottom), $image;
+  background-image:  -o- + fade(bottom), $image;
+  background-image:  -ms- + fade(bottom), $image;
+  background-image:  fade(bottom), $image;
+}
+
+@mixin background-image-fade-vertical($image) {
+  background-image: -webkit- + fade(bottom), -webkit- + fade(top), $image;
+  background-image:  -moz- + fade(bottom), -moz- + fade(top), $image;
+  background-image:  -o- + fade(bottom), -o- + fade(top), $image;
+  background-image:  -ms- + fade(bottom), -ms- + fade(top), $image;
+  background-image:  fade(bottom), fade(top), $image;
+}
+
+@mixin filter-grayscale($how_much){
+  filter: grayscale($how_much);
+  -webkit-filter: grayscale($how_much); /* Safari 6.0 - 9.0 */
+}

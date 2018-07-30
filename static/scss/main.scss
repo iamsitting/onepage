@@ -1,0 +1,23 @@
+@import "base";
+
+body {
+  padding-bottom: 0px;
+}
+
+iframe {
+  position: relative;
+  top: 0;
+  bottom: 1200px;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%
+}
+
+footer {
+  background-color: black;
+  padding: 70px;
+  margin: 0;
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,44 @@
+@import "modules";
+
+.section__content--vertical-align {
+  padding: 70px 0;
+}
+
+.section-intro {
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  overflow-x: hidden;
+  text-align: center;
+  @include background-image-fade-bottom($bg-1);
+}
+
+.section-about {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.section-download{
+  background-size: cover;
+  color: white;
+  height: 450px;
+  padding: 70px 0;
+  text-align: center;
+
+  @include background-image-fade-vertical($bg-2);
+}
+
+.section-contact {
+  background-color: black;
+  color: white;
+  height: 350px;
+  text-align: center;
+}
+
+.section-map{
+  height: 120px;
+}

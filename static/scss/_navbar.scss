@@ -1,0 +1,21 @@
+.navbar {
+  padding-top: 5px 10px 5px 10px;
+  background-color: transparent;
+  border: 0;
+}
+
+.navbar--mobile {
+  @media screen and (max-width: 320px) {
+    background-color: black !important;
+    border-bottom: 1px solid rgba(255,255,255, 0.3);
+    transition: background-color 1s, border-bottom 1s;
+    -webkit-transition: background-color 1s, border-bottom 1s;
+  }
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: black !important;
+  border-bottom: 1px solid rgba(255,255,255, 0.3);
+  transition: background-color 1s, border-bottom 1s;
+  -webkit-transition: background-color 1s, border-bottom 1s;
+}

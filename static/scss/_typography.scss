@@ -1,0 +1,72 @@
+$primary-text-color: white;
+$secondary-text-color: #1d9b6c;
+
+.navbar__anchor--style {
+    font-family: Cabin, sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+
+    a {
+      color: $primary-text-color;
+      background-color: transparent;
+    }
+
+    li a:link{
+      background-color: transparent;
+    }
+
+    li a:hover{
+      background-color: transparent;
+    }
+
+}
+
+.navbar__anchor--style.scrolled {
+    font-family: Cabin, sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+
+    a {
+      color: $primary-text-color;
+      background-color: transparent;
+    }
+
+    li a:link{
+      background-color: transparent;
+    }
+
+    li a:hover{
+      background-color: #888;
+    }
+
+}
+[class^='section'] .anchor__external-link--style:link {
+  text-decoration: 0;
+  color: $secondary-text-color;
+}
+
+[class^='section'] .anchor__external-link--style:link {
+  text-decoration: 0;
+  color: $secondary-text-color;
+}
+
+[class^='section'] .anchor__external-link--style:link {
+  text-decoration: 0;
+  color: $secondary-text-color;
+}
+
+[class^='section'] .anchor__external-link--style:link {
+  text-decoration: 0;
+  color: $secondary-text-color;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+footer {
+  font-size: 16px;
+}

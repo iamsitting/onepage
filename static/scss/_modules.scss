@@ -1,6 +1,12 @@
 $bg-1:    url('../img/highest.jpg');
 $bg-2:    url('../img/lowest.jpg');
 
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+}
+
 @function fade($direction) {
   $val: null !default;
 
@@ -41,6 +47,11 @@ $bg-2:    url('../img/lowest.jpg');
 }
 
 @mixin filter-grayscale($how_much){
-  filter: grayscale($how_much);
-  -webkit-filter: grayscale($how_much); /* Safari 6.0 - 9.0 */
+  @include prefix(filter, grayscale($how_much), webkit moz o ms);
+}
+
+@mixin fade-to-black(){
+  @include prefix(transition, all 1s ease, webkit moz o ms);
+  background-color: black !important;
+  border-bottom: 1px solid rgba(255,255,255, 0.3);
 }

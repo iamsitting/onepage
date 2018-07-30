@@ -6,16 +6,13 @@
 
 .navbar--mobile {
   @media screen and (max-width: 320px) {
-    background-color: black !important;
-    border-bottom: 1px solid rgba(255,255,255, 0.3);
-    transition: background-color 1s, border-bottom 1s;
-    -webkit-transition: background-color 1s, border-bottom 1s;
+    @include fade-to-black();
   }
 }
 
 .navbar-fixed-top.scrolled {
-  background-color: black !important;
-  border-bottom: 1px solid rgba(255,255,255, 0.3);
-  transition: background-color 1s, border-bottom 1s;
-  -webkit-transition: background-color 1s, border-bottom 1s;
+  @include fade-to-black();
+  a, button {
+    color: white !important;
+  }
 }

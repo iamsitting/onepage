@@ -49,16 +49,22 @@
 
 @media screen and (max-width: 320px) {
   .navbar--mobile {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
     background-color: black !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    transition: background-color 1s, border-bottom 1s;
-    -webkit-transition: background-color 1s, border-bottom 1s; } }
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); } }
 
 .navbar-fixed-top.scrolled {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
   background-color: black !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  transition: background-color 1s, border-bottom 1s;
-  -webkit-transition: background-color 1s, border-bottom 1s; }
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+  .navbar-fixed-top.scrolled a, .navbar-fixed-top.scrolled button {
+    color: white !important; }
 
 .navbar__anchor--style {
   font-family: Cabin, sans-serif;

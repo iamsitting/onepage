@@ -1,4 +1,5 @@
 var express = require('express');
+var ScrollTriggger = require("scrolltrigger-classes");
 var app = express();
 
 app.use(express.static('static'));

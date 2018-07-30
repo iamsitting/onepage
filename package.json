@@ -2,13 +2,18 @@
   "name": "onepage",
   "version": "1.0.0",
   "description": "html/css sandbox",
-  "main": "main.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node app.js"
   },
   "author": "iamsitting",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
+    "@fortawesome/fontawesome-free": "^5.2.0",
+    "bootstrap": "^4.1.3",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "scrolltrigger-classes": "^0.3.6"
   }
 }
